@@ -1,5 +1,5 @@
 :root {
-    --primary: #fc2651;
+    --primary: #8800ff;
     --primary-hover: #e91e47;
     --primary-light: rgba(252, 38, 81, 0.1);
     --primary-lighter: rgba(252, 38, 81, 0.05);
@@ -7,10 +7,10 @@
     --accent-light: rgba(139, 92, 246, 0.1);
     --success: #10b981;
     --warning: #f59e0b;
-    --text: #1a1a1a;
+    --text: #440044;
     --text-muted: #6b7280;
     --text-light: #9ca3af;
-    --bg: #ffffff;
+    --bg: #ff00ff;
     --bg-secondary: #f8fafc;
     --surface: #ffffff;
     --surface-hover: #f1f5f9;
@@ -33,7 +33,7 @@
 }
 
 .dark-mode {
-    --primary: #fc2651;
+    --primary: #6600ff;
     --primary-hover: #ff4d75;
     --primary-light: rgba(252, 38, 81, 0.15);
     --primary-lighter: rgba(252, 38, 81, 0.08);
@@ -44,7 +44,7 @@
     --text: #f1f5f9;
     --text-muted: #94a3b8;
     --text-light: #64748b;
-    --bg: #0f172a;
+    --bg: #440044;
     --bg-secondary: #1e293b;
     --surface: #1e293b;
     --surface-hover: #334155;
