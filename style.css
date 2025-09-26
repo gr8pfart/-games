@@ -1,8 +1,8 @@
 :root {
     --primary: #8800ff;
     --primary-hover: #8800ff;
-    --primary-light: rgba(255, 000, 255, 0.1);
-    --primary-lighter: rgba(252, 38, 81, 0.05);
+    --primary-light: rgba(255, 0, 255, 0.1);
+    --primary-lighter: rgba(155, 0, 155, 0.05);
     --accent: #8b5cf6;
     --accent-light: rgba(139, 92, 246, 0.1);
     --success: #10b981;
