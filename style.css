@@ -36,7 +36,7 @@
     --primary: #6600ff;
     --primary-hover: #6600ff;
     --primary-light: rgba(155, 0, 155, 0.15);
-    --primary-lighter: rgba(155, 0, 155, 0.08);
+    --primary-lighter: rgba(75, 0, 75, 0.08);
     --accent: #a855f7;
     --accent-light: rgba(168, 85, 247, 0.15);
     --success: #34d399;
@@ -46,7 +46,7 @@
     --text-light: #660066;
     --bg: #440044;
     --bg-secondary: #1e293b;
-    --surface: #1e293b;
+    --surface: #ffffff;
     --surface-hover: #334155;
     --border: #334155;
     --border-light: #475569;
