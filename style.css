@@ -3,10 +3,10 @@
     --primary-hover: #8800ff;
     --primary-light: rgba(255, 0, 255, 0.1);
     --primary-lighter: rgba(155, 0, 155, 0.05);
-    --accent: #8b5cf6;
+    --accent: #440033;
     --accent-light: rgba(139, 92, 246, 0.1);
-    --success: #10b981;
-    --warning: #f59e0b;
+    --success: #00ff00;
+    --warning: #ff0000;
     --text: #440044;
     --text-muted: #330033;
     --text-light: #660066;
@@ -23,13 +23,13 @@
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
     --shadow-glow: 0 0 20px rgba(252, 38, 81, 0.3);
-    --radius: 12px;
-    --radius-sm: 8px;
-    --radius-lg: 16px;
-    --radius-xl: 20px;
-    --gradient-primary: linear-gradient(135deg, #660099 0%, #e91e47 100%);
-    --gradient-accent: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
-    --gradient-surface: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    --radius: 100px;
+    --radius-sm: 80px;
+    --radius-lg: 160px;
+    --radius-xl: 200px;
+    --gradient-primary: linear-gradient(135deg, #ff00ff 0%, #330033 100%);
+    --gradient-accent: linear-gradient(135deg, #00ff00 0%, #660066 100%);
+    --gradient-surface: linear-gradient(135deg, #ff0000 0%, #0000ff 100%);
 }
 
 
