@@ -11,12 +11,12 @@
     --text-muted: #330033;
     --text-light: #660066;
     --bg: #440044;
-    --bg-secondary: #f8fafc;
-    --surface: #ffffff;
-    --surface-hover: #f1f5f9;
+    --bg-secondary: #ff0000;
+    --surface: #440044;
+    --surface-hover: #220022;
     --border: #440044;
-    --border-light: #f1f5f9;
-    --glass: rgba(255, 255, 255, 0.8);
+    --border-light: #ffffff;
+    --glass: rgba(255, 0, 255, 0.8);
     --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
