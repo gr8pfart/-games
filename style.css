@@ -1,49 +1,4 @@
-:root{
-animation: myAnim .5s ease 0s 1 normal forwards;
-}
-{
-	@keyframes myAnim {
-	0% {
-		animation-timing-function: ease-in;
-		opacity: 0;
-		transform: scale(0);
-	}
-
-	38% {
-		animation-timing-function: ease-out;
-		opacity: 1;
-		transform: scale(1);
-	}
-
-	55% {
-		animation-timing-function: ease-in;
-		transform: scale(0.7);
-	}
-
-	72% {
-		animation-timing-function: ease-out;
-		transform: scale(1);
-	}
-
-	81% {
-		animation-timing-function: ease-in;
-		transform: scale(0.84);
-	}
-
-	89% {
-		animation-timing-function: ease-out;
-		transform: scale(1);
-	}
-
-	95% {
-		animation-timing-function: ease-in;
-		transform: scale(0.95);
-	}
-
-	100% {
-		animation-timing-function: ease-out;
-		transform: scale(1);
-	}
+:root
 		{
     --primary: #8800ff;
     --primary-hover: #8800ff;
@@ -120,7 +75,7 @@ header {
     font-size: 1.75rem;
     font-weight: 800;
     letter-spacing: -0.02em;
-    background: linear-gradient(135deg, #ffffff 0%, rgba(255, 255, 255, 0.8) 100%);
+    background: linear-gradient(135deg, #ff0000 0%, rgba(255, 255, 255, 0.8) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -325,7 +280,7 @@ main {
         transform: translateY(100%);
     }
     to {
-        transform: translateY(0);
+        transform: translateY(100);
     }
 }
 
