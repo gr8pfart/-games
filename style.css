@@ -1,21 +1,21 @@
 :root
 		{
-    --primary: #8800ff;
-    --primary-hover: #8800ff;
-    --primary-light: rgba(255, 0, 255, 0.1);
-    --primary-lighter: rgba(155, 0, 155, 0.05);
-    --accent: #440033;
+    --primary: #000000;
+    --primary-hover: #000000;
+    --primary-light: rgba(255, 255, 255, 0.1);
+    --primary-lighter: rgba(155, 155, 155, 0.05);
+    --accent: #000000;
     --accent-light: rgba(139, 92, 246, 0.1);
     --success: #00ff00;
     --warning: #ff0000;
-    --text: #440044;
-    --text-muted: #330033;
-    --text-light: #660066;
-    --bg: #440044;
-    --bg-secondary: #ff0000;
-    --surface: #440044;
-    --surface-hover: #220022;
-    --border: #440044;
+    --text: #ffffff;
+    --text-muted: #777777;
+    --text-light: #999999;
+    --bg: #000000;
+    --bg-secondary: #ffffff;
+    --surface: #ffffff;
+    --surface-hover: #000000;
+    --border: #888888;
     --border-light: #ffffff;
     --glass: rgba(255, 0, 255, 0.8);
     --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
