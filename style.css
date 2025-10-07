@@ -28,9 +28,9 @@
     --radius-sm: 80px;
     --radius-lg: 160px;
     --radius-xl: 200px;
-    --gradient-primary: linear-gradient(135deg, #ff00ff 0%, #330033 100%);
-    --gradient-accent: linear-gradient(135deg, #00ff00 0%, #660066 100%);
-    --gradient-surface: linear-gradient(135deg, #ff0000 0%, #0000ff 100%);
+    --gradient-primary: linear-gradient(135deg, #000000 0%, #ffffff 100%);
+    --gradient-accent: linear-gradient(135deg, #ffffff 0%, #000000 100%);
+    --gradient-surface: linear-gradient(135deg, #000000 0%, #ffffff 100%);
 }
 
 
