@@ -15,8 +15,8 @@
     --bg-secondary: #ffffff;
     --surface: #ffffff;
     --surface-hover: #000000;
-    --border: #888888;
-    --border-light: #ffffff;
+    --border: #000000;
+    --border-light: #000000;
     --glass: rgba(255, 0, 255, 0.8);
     --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
