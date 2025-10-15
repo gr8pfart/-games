@@ -75,7 +75,7 @@ header {
     font-size: 1.75rem;
     font-weight: 800;
     letter-spacing: -0.02em;
-    background: linear-gradient(135deg, #444400 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(150deg, #444400 0%, rgba(0, 0, 0, 0.8) 200%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
