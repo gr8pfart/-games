@@ -1,7 +1,7 @@
 :root
 		{
-    --primary: #ffff00;
-    --primary-hover: #ffff00;
+    --primary: #444400;
+    --primary-hover: #444400;
     --primary-light: rgba(255, 255, 0, 0.1);
     --primary-lighter: rgba(155, 155, 0, 0.05);
     --accent: #000000;
@@ -28,9 +28,9 @@
     --radius-sm: 80px;
     --radius-lg: 160px;
     --radius-xl: 200px;
-    --gradient-primary: linear-gradient(135deg, #000000 0%, #ffff00 100%);
-    --gradient-accent: linear-gradient(135deg, #ffff00 0%, #000000 100%);
-    --gradient-surface: linear-gradient(135deg, #000000 0%, #ffff00 100%);
+    --gradient-primary: linear-gradient(135deg, #000000 0%, #444400 100%);
+    --gradient-accent: linear-gradient(135deg, #000000 0%, #444400 100%);
+    --gradient-surface: linear-gradient(135deg, #000000 0%, #444400 100%);
 }
 
 
