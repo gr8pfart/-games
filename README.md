@@ -1,1 +1,1 @@
-it bugged😭
+it's og😏
