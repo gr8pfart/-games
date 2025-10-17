@@ -1,4 +1,45 @@
+:root
+		{
+    --primary: #444400;
+    --primary-hover: #444400;
+    --primary-light: rgba(155, 155, 0, 0.1);
+    --primary-lighter: rgba(75, 75, 0, 0.05);
+    --accent: #000000;
+    --accent-light: rgba(139, 92, 0, 0.1);
+    --success: #00ff00;
+    --warning: #ff0000;
+    --text: #ff0000;
+    --text-muted: #770000;
+    --text-light: #990000;
+    --bg: #444400;
+    --bg-secondary: #000000;
+    --surface: #444400;
+    --surface-hover: #000000;
+    --border: #000000;
+    --border-light: #000000;
+    --glass: rgba(155, 155, 0, 0.8);
+    --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --shadow-glow: 0 0 20px rgba(252, 38, 81, 0.3);
+    --radius: 100px;
+    --radius-sm: 80px;
+    --radius-lg: 160px;
+    --radius-xl: 200px;
+    --gradient-primary: linear-gradient(135deg, #000000 0%, #444400 100%);
+    --gradient-accent: linear-gradient(135deg, #000000 0%, #444400 100%);
+    --gradient-surface: linear-gradient(135deg, #000000 0%, #444400 100%);
+}
 
+
+* {
+    box-sizing: border-box;
+}
+
+body 
+		{
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
@@ -66,58 +107,6 @@
     100% {
         transform: translateX(1);
     }
-}
-:root
-		{
-    --primary: #444400;
-    --primary-hover: #444400;
-    --primary-light: rgba(155, 155, 0, 0.1);
-    --primary-lighter: rgba(75, 75, 0, 0.05);
-    --accent: #000000;
-    --accent-light: rgba(139, 92, 0, 0.1);
-    --success: #00ff00;
-    --warning: #ff0000;
-    --text: #ff0000;
-    --text-muted: #770000;
-    --text-light: #990000;
-    --bg: #444400;
-    --bg-secondary: #000000;
-    --surface: #444400;
-    --surface-hover: #000000;
-    --border: #000000;
-    --border-light: #000000;
-    --glass: rgba(155, 155, 0, 0.8);
-    --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-    --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-    --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-    --shadow-glow: 0 0 20px rgba(252, 38, 81, 0.3);
-    --radius: 100px;
-    --radius-sm: 80px;
-    --radius-lg: 160px;
-    --radius-xl: 200px;
-    --gradient-primary: linear-gradient(135deg, #000000 0%, #444400 100%);
-    --gradient-accent: linear-gradient(135deg, #000000 0%, #444400 100%);
-    --gradient-surface: linear-gradient(135deg, #000000 0%, #444400 100%);
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: var(--bg);
-    color: var(--text);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 header {
