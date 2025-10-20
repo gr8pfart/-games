@@ -1,5 +1,19 @@
 :root
 		{
+	 --primary: #444400;
+    --primary-hover: #444400;
+    --primary-light: rgba(255, 255, 0, 0.1);
+    --primary-lighter: rgba(155, 155, 0, 0.05);
+    --accent: #000000;
+    --accent-light: rgba(139, 92, 0, 0.1);
+    --success: #00ff00;
+    --warning: #ff0000;
+    --text: #ff0000;
+    --text-muted: #770000;
+    --text-light: #990000;
+    --bg: #ffff00;
+    --bg-secondary: #000000;
+    --surface: #ffff00;
     --surface-hover: #000099;
     --border: #ff0000;
     --border-light: #ff1100;
