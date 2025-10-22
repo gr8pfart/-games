@@ -103,7 +103,7 @@ header {
     font-size: 1.75rem;
     font-weight: 800;
     letter-spacing: -0.02em;
-    background: linear-gradient(135deg, #ffffff 0%, rgba(255, 255, 255, 0.8) 100%);
+    background: linear-gradient(135deg, #00ff00 0%, rgba(255, 255, 255, 0.8) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -171,7 +171,7 @@ header {
 #settings {
     background: rgba(255, 255, 255, 0.1);
     border: 0;
-    color: white;
+    color: green;
     font-size: 1.2rem;
     cursor: pointer;
     padding: 0.75rem;
@@ -432,7 +432,7 @@ main {
 
 .popup-header {
     background: var(--gradient-primary);
-    color: white;
+    color: green;
     padding: 1.25rem 1.5rem;
     display: flex;
     justify-content: space-between;
@@ -448,7 +448,7 @@ main {
 #popupClose {
     background: rgba(255, 255, 255, 0.1);
     border: 0;
-    color: white;
+    color: green;
     font-size: 1.25rem;
     cursor: pointer;
     padding: 0.5rem;
@@ -499,7 +499,7 @@ main {
     width: 100%;
     padding: 0.875rem 1rem;
     background: var(--gradient-primary);
-    color: white;
+    color: green;
     border: 0;
     border-radius: var(--radius);
     cursor: pointer;
