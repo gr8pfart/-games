@@ -67,10 +67,45 @@
 }
 
 body {
-    body, html, #app {
+ html,
+body {
   margin: 0;
-  width: 100%;
+  padding: 0;
   height: 100%;
+  width: 100%;
+}
+#hs {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* or overflow:auto; if you want scrollbars */
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+@keyframes wipe {
+  from {
+    top: 0%;
+  }
+  to {
+    top: 100%;
+  }
+}
+.bar {
+  height: 10px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
+  animation: wipe 5s infinite;
+}
+
 }
 
 body {
