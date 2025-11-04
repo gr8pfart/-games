@@ -11,7 +11,7 @@
     --text: #00ff00;
     --text-muted: #006600;
     --text-light: #00ff00;
-    --bg: #ff00ff;
+    --bg: #110011;
     --bg-secondary: #440044;
     --surface: #1e293b;
     --surface-hover: #334155;
@@ -24,9 +24,9 @@
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.6), 0 4px 6px -4px rgb(0 0 0 / 0.6);
     --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.7), 0 8px 10px -6px rgb(0 0 0 / 0.7);
     --shadow-glow: 0 0 20px rgba(252, 38, 81, 0.4);
-    --gradient-primary: linear-gradient(135deg, #00ff00 0%, #00ff00 100%);
-    --gradient-accent: linear-gradient(135deg, #00ff00 0%, #00ff00 100%);
-    --gradient-surface: linear-gradient(135deg, #00ff00 0%, #00ff00 100%);
+    --gradient-primary: linear-gradient(135deg, #004400 0%, #004400 100%);
+    --gradient-accent: linear-gradient(135deg, #004400 0%, #004400 100%);
+    --gradient-surface: linear-gradient(135deg, #004400 0%, #004400 100%);
 }
 
 * {
