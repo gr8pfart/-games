@@ -181,7 +181,7 @@ header {
 
 .control-buttons {
     display: flex;
-    gap: 0.5rem;
+    gap: 0rem;
 }
 
 #settings {
@@ -478,7 +478,19 @@ main {
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(20px);
+     animation: slideOutScale 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
+        }
+
+@keyframes slideInScale {
+    from {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: scale(0.9) translateY(20px);
+        opacity: 0;
+    }
 
 #popupClose:hover {
     background: rgba(255, 255, 255, 0.2);
