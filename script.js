@@ -1,3 +1,6 @@
+for (int i = 0; i < 100; i++) {
+    System.out.println("SPAM");
+}
 const container = document.getElementById('container');
 const zoneViewer = document.getElementById('zoneViewer');
 let zoneFrame = document.getElementById('zoneFrame');
