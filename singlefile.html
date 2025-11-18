@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <base href="https://cdn.jsdelivr.net/gh/gn-math/gn-math.github.io@main/">
-    <link rel="icon" type="image/png" href="favcon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favcon.png">
-    <link rel="apple-touch-icon" href="/favcon.png">
+    <link rel="icon" type="image/png" href="gr8pfart">
+    <link rel="icon" type="image/png" sizes="32x32" href="/gr8pfart.png">
+    <link rel="apple-touch-icon" href="/gr8pfart.png">
     <script>
         window.addEventListener('beforeunload', function (event) {
             event.preventDefault();
@@ -28,7 +28,7 @@
     <script src="https://cdn.jsdelivr.net/gh/gn-math/gn-math.github.io@main/gnmath.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gn-math</title>
+    <title>Gr8pfart</title>
     <meta name="title" content="GN-Math">
     <meta name="description" content="Play unbl*cked games like Crazy Cattle 3D and DriveMad on GN-Math. Fast, free, no downloads—perfect for school or home.">
     <meta property="og:type" content="website">
@@ -40,7 +40,7 @@
     <meta name="twitter:title" content="GN-Math">
     <meta name="twitter:description" content="Play unbl*cked games like Crazy Cattle 3D and DriveMad on GN-Math. Fast, free, no downloads—perfect for school or home.">
     <style>
-:root {
+        :root {
     --primary: #fc2651;
     --primary-hover: #e91e47;
     --primary-light: rgba(252, 38, 81, 0.1);
@@ -74,8 +74,34 @@
     --gradient-surface: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
 }
 
-
-   
+.dark-mode {
+    --primary: #fc2651;
+    --primary-hover: #ff4d75;
+    --primary-light: rgba(252, 38, 81, 0.15);
+    --primary-lighter: rgba(252, 38, 81, 0.08);
+    --accent: #a855f7;
+    --accent-light: rgba(168, 85, 247, 0.15);
+    --success: #34d399;
+    --warning: #fbbf24;
+    --text: #f1f5f9;
+    --text-muted: #94a3b8;
+    --text-light: #64748b;
+    --bg: #0f172a;
+    --bg-secondary: #1e293b;
+    --surface: #1e293b;
+    --surface-hover: #334155;
+    --border: #334155;
+    --border-light: #475569;
+    --glass: rgba(30, 41, 59, 0.8);
+    --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.4);
+    --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.5), 0 1px 2px -1px rgb(0 0 0 / 0.5);
+    --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.5), 0 2px 4px -2px rgb(0 0 0 / 0.5);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.6), 0 4px 6px -4px rgb(0 0 0 / 0.6);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.7), 0 8px 10px -6px rgb(0 0 0 / 0.7);
+    --shadow-glow: 0 0 20px rgba(252, 38, 81, 0.4);
+    --gradient-primary: linear-gradient(135deg, #fc2651 0%, #ff4d75 100%);
+    --gradient-accent: linear-gradient(135deg, #a855f7 0%, #9333ea 100%);
+    --gradient-surface: linear-gradient(135deg, #1e293b 0%, #334155 100%);
 }
 
 * {
@@ -181,7 +207,7 @@ header {
 
 .control-buttons {
     display: flex;
-    gap: 0rem;
+    gap: 0.5rem;
 }
 
 #settings {
@@ -208,7 +234,6 @@ header {
 }
 
 main {
-    max-width: 1200px;
     margin: 0 auto;
     padding: 2rem 1rem;
     padding-bottom: 6rem;
@@ -478,19 +503,7 @@ main {
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(20px);
-     animation: slideOutScale 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-        }
-
-@keyframes slideOutScale {
-    from {
-        transform: scale(1) translateY(0);
-        opacity: 1;
-    }
-    to {
-        transform: scale(0.9) translateY(20px);
-        opacity: 0;
-    }
 
 #popupClose:hover {
     background: rgba(255, 255, 255, 0.2);
@@ -625,12 +638,25 @@ footer {
     }
 
     .popup {
-        margin: 2.0rem;
+        margin: 0.5rem;
     }
 
     .zone-item:hover {
-        transform: translateY(-4px) scale(1.01);
+        transform: translateY(-10px) scale(1.01);
     }
+
+}
+#settings img {
+    transition: transform 0.4s ease;
+}
+
+#settings:hover img {
+    transform: rotate(40deg);
+}
+
+#settings,
+#settings:hover {
+    box-shadow: none;
 }
     </style>
 </head>
@@ -647,7 +673,7 @@ footer {
                 </select>
             </div>
             <div class="control-buttons">
-                <button id="settings" style="background-color: var(--primary-color); color: white; border: none; border-radius: 4px; padding: 0.5rem 1rem; font-size: 16px; cursor: pointer;">Settings</button>
+                <button id="settings" style="background-color: var(--primary-color); color: white; border: none; border-radius: 4px; padding: 0.5rem 1rem; font-size: 16px; cursor: pointer;"><img src="setting.png" alt="settings" width="45px"></button>
             </div>
         </div>
     </header>
@@ -721,9 +747,7 @@ footer {
             <input type="file" id="importData" style="display: none;" onchange="loadData(event)">
         </div>
     </footer>
-
-    <script>
-        const container = document.getElementById('container');
+    <script>const container = document.getElementById('container');
 const zoneViewer = document.getElementById('zoneViewer');
 let zoneFrame = document.getElementById('zoneFrame');
 const searchBar = document.getElementById('searchBar');
@@ -1417,7 +1441,13 @@ XMLHttpRequest.prototype.open = function (method, url) {
 
 HTMLCanvasElement.prototype.toDataURL = function (...args) {
     return "";
-};
+};</script>
+    <script>
+        const search = new URLSearchParams(window.location.search);
+        const privacy = search.get('privacy');
+        if (privacy) {
+            loadPrivacy();
+        }
     </script>
 </body>
 </html>
